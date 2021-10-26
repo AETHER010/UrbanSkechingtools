@@ -1,0 +1,101 @@
+
+body{
+    background-color: #659DBD;
+}
+h1{
+    text-shadow: 2px 2px red;
+}
+
+.background {
+    height: 500px;
+    border: 2px solid black;
+  }
+  
+.transbox {
+    height:499px;
+    margin: 2px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.9;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
+  
+  div.transbox p {
+    margin: 2%;
+    font-weight: bold;
+    color: #000000;
+    text-align:right;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {font-size: 12px;}
+button2 {font-size: 12px;}
+button3 {font-size: 12px;}
+button4 {font-size: 12px;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: red;
+}
+
+.button1 {
+    background-color: rgb(135,206,235);
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.button2 {
+    background-color: rgb(135,206,235);
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.button3 {
+    background-color: rgb(135,206,235);
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.button4 {
+    background-color: rgb(106,90,205);
+    font-size: 25px;
+    border: none;
+    border-radius: 8px;
+}

@@ -1,0 +1,55 @@
+body{
+    background-color: #659DBD;
+}
+
+h1{
+    text-shadow: 2px 2px red;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: red;
+}
+
+
+div.background {
+  
+    border: 2px solid black;
+}
+  
+div.transbox {
+    margin: 2px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+  
+div.transbox p {
+    margin: 2%;
+    font-weight: bold;
+    color: #000000;
+    text-align:right;
+}
